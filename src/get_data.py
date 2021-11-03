@@ -12,6 +12,8 @@ def read_params(config_path):
         config = yaml.safe_load(yaml_file)
     return config
 
+#extra commtn
+
 def get_data(config_path):
     config = read_params(config_path)
     #print(config)
